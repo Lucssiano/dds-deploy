@@ -30,7 +30,7 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
-    maven_test:
-        command: '-X compile'
-        executor: java17
+  maven_test:
+      command: '-X compile'
+      executor: java17
 
